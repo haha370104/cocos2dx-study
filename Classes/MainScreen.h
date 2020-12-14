@@ -22,6 +22,9 @@ public:
     
     // implement the "static create()" method manually
     CREATE_FUNC(MainScreen);
+    
+private:
+    void animation(float f);
 };
 
 #endif /* MainScreen_hpp */
